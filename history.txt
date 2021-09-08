@@ -1,0 +1,898 @@
+    1  dsf
+    2  sdf
+    3  sd
+    4  f
+    5  sa
+    6  df
+    7  asd
+    8  f
+    9  d
+   10  f
+   11  d
+   12  f
+   13  d
+   14  f
+   15  df
+   16  d
+   17  f
+   18  df
+   19  d
+   20  vim
+   21  vi
+   22  yum
+   23  yum install -y vim
+   24  yum 
+   25  curl -fsSl https://get.docker.com | bash -s docker --mirror aliyun
+   26  docker
+   27  docker run ubuntu:15.10 /bin/echo "hello world"
+   28  docker
+   29  docker stats --help
+   30  docker pull ubuntu
+   31  docker  pull run -it ubuntu /bin/bash
+   32  docker  run -it ubuntu /bin/bash
+   33  exit
+   34  ls
+   35  ipconfig
+   36  ifconfig
+   37  ps
+   38  ttyp
+   39  feo
+   40  hs
+   41  sh
+   42  exit
+   43  ping baidu.com
+   44  cd /etc
+   45  ls
+   46  cd sysconfig/
+   47  ls
+   48  cd ..
+   49  ifconfig
+   50  ifconfig ens33
+   51  cd /etc/sysconfig/network-scripts/
+   52  ls
+   53  vim ifcfg-ens33 
+   54  vim /etc/yum.repos.d/
+   55  cd /etc/yum.repos.d/
+   56  ls
+   57  vim CentOS-Base.repo 
+   58  sudo yum install -y ansible
+   59  yum install -y ssh
+   60  yum install -y sshd
+   61  cp CentOS-Base.repo CentOS-Base.repo.bak
+   62  wget 
+   63  yum install -y wget
+   64  wget http://mirrors.163.com/.help/CentOS7-Base-163.repo
+   65  yum clean all
+   66  mv CentOS7-Base-163.repo CentOS-Base.repo
+   67  yum makecache
+   68  yum update
+   69  yum
+   70  yum check-update
+   71  yum search java| grep jdk
+   72  ifconfig
+   73  ping baidu.com
+   74  cat user-pass
+   75  head -3 /etc/passwd
+   76  cat /etc/shadow
+   77  ls -l /etc/passwd /etc/shadow
+   78  ping baidu.com
+   79  ping google.com
+   80  ping www.google.com
+   81  ll
+   82  cd ..
+   83  ls
+   84  ifconfig
+   85  service ssh start 
+   86  ping baidu.com
+   87  yum install ssh -y
+   88  ssh
+   89  service iptables stop
+   90  vim /etc/sysconfig/network-scripts/ifcfg-ens33 
+   91  ifconfig
+   92  ping baiud.com
+   93  ping 127.0.0.1
+   94  ping baiud.com
+   95  ip link
+   96  ifconfig 
+   97  ping baidu.com
+   98  ping localhost
+   99  ping www.baidu.com
+  100  ifconfig
+  101  ip link
+  102  ip link set ens33 up
+  103  ip link
+  104  ping baidu.com
+  105  ping www.baidu.com
+  106  ifconfig
+  107  vim /etc/sysconfig/
+  108  cd /
+  109  ls
+  110  cd etc
+  111  ls
+  112  cd sysconfig/
+  113  ls
+  114  cd network-scripts/
+  115  ls
+  116  vim ifcfg-ens33 
+  117  service network restart
+  118  systemctl restart network
+  119  systemctl status network.service
+  120  systemctl start network.service
+  121  ip link 
+  122  iwlist 
+  123  source ifcfg-ens33 
+  124  ping baidu.com
+  125  reboot
+  126  ping baidu.com
+  127  ifconfig
+  128  ping 192.168.255.101
+  129  vim /etc/sysconfig/network-scripts/ifcfg-ens33 
+  130  systemctl restart network.service
+  131  ping baidu.com
+  132  ip link
+  133  ifconfig ens33
+  134  yum install /root/rpmbuild/RPMS/x86-64/kernel-ml-4.2.3-1.e17.centos.x86-64.rpm
+  135  make help
+  136  cd /dev
+  137  ls
+  138  ls -al | grep mem
+  139  cd mem 
+  140  vim mem 
+  141  ls -al | grep fd
+  142   ping google.co
+  143   ping google.com
+  144  cd input/
+  145  ls
+  146  ll
+  147  man ls
+  148  ls -L
+  149  ls -l
+  150  ls -LL
+  151  date
+  152  reboot
+  153  ping baidu.com
+  154  ping google.com
+  155  ping github.com
+  156  ping github.io
+  157  ficonfig
+  158  ifcofnig
+  159  ifconfig
+  160  date
+  161  locale
+  162  export LC_ALL=en_US.utf-8
+  163  locale
+  164  date
+  165  date +%Y
+  166  date +%Y%m
+  167  date +%Y%m%d
+  168  date +%Y/%m/%d
+  169  cal
+  170  cal 2021
+  171  cal 10 2021
+  172  bc
+  173  clean
+  174  clear
+  175  find /
+  176  man -f man
+  177  man -k man
+  178  man -f ls
+  179  whatis sl
+  180  whatis ls
+  181  apropos
+  182  apropos ls
+  183  man -k ls
+  184  apropos ls
+  185  apropos docker
+  186  apropos docker | grep docker
+  187  mandb
+  188  makewhatsi
+  189  makewhatis
+  190  mandb
+  191  man info
+  192  man -f info
+  193  man -k info | grep info
+  194  info man
+  195  sync
+  196  man -k sync | grep sync
+  197  shutdown -k
+  198  shutdown -c
+  199  shutdown -f
+  200  shutdown -c
+  201  shutdown -r
+  202  shutdown -c
+  203  shutdown -r now
+  204  ping baidu.com
+  205  ifconfig ens33
+  206  sync
+  207  stnc
+  208  sync
+  209  stync
+  210  sync
+  211  man reboot
+  212  man -f reboot
+  213  ls -a
+  214  who
+  215  ll
+  216  cat anaconda-ks.cfg 
+  217  touch test.txt
+  218  ls
+  219  ls -la
+  220  ls -l
+  221  chgrp test.txt all
+  222  chgrp user test.txt 
+  223  chown root test.txt 
+  224  ls -l
+  225  cp anaconda-ks.cfg test.txt 
+  226  ls
+  227  cat test.txt 
+  228  ll
+  229  chmod u=rwx,go=rx test.txt 
+  230  ll
+  231  chmod u=r,g=rw,o=rwx test.txt 
+  232  ll
+  233  uname -f 
+  234  man -f uname
+  235  man -k uname
+  236  arch
+  237  uname
+  238  uname -a
+  239  uname -m 
+  240  arch
+  241  yum install redhat-lsb
+  242  ls
+  243  mkdir sss
+  244  ls
+  245  ll
+  246  rmdir sss
+  247  ll
+  248  ls -ld
+  249  ls -l
+  250  ls -ld
+  251  cd .
+  252  ls
+  253  ls -ls
+  254  ls -la
+  255  echo $PATH
+  256  ls -lA
+  257  ls -l
+  258  ls -lh
+  259  ls -alF
+  260  cat -A test.txt 
+  261  cat -An test.txt 
+  262  tac
+  263  tac test.txt 
+  264  nl test.txt 
+  265  nl -bnw test.txt 
+  266  nl -b a -n rz test.txt 
+  267  nl -w 3 test.txt 
+  268  nl -b -w 3 test.txt 
+  269  nl -b a -w 3 test.txt 
+  270  nl -b a -n rz -w 3 test.txt 
+  271  less
+  272  less test.txt 
+  273  head -10 test.txt 
+  274  tail -10 test.txt 
+  275  od -t c test.txt 
+  276  echo password | od -t oCc
+  277  umark
+  278  umask
+  279  umask test.txt 
+  280  umask -S
+  281  chattr test.txt 
+  282  chattr -i test.txt 
+  283  ls
+  284  ls -l
+  285  chattr
+  286  chatls
+  287  lsattr
+  288  chattr +i test.txt 
+  289  lsattr
+  290  file test.txt 
+  291  file /usr/bin/passwd
+  292  file /var/lib/mlocate/mlocate.db
+  293  which ls
+  294  which man
+  295  which who
+  296  which whois
+  297  which whatis
+  298  which history
+  299  history
+  300  which history
+  301  whereis history
+  302  locate -S
+  303  locate
+  304  locate 
+  305  yum install locate
+  306  locate
+  307  find / -perm 4755 test.txt 
+  308  id
+  309  id root
+  310  groupadd project
+  311  useradd -G project lt
+  312  id lt
+  313  netstat
+  314  netstat -tulnp
+  315  dmesg
+  316  dmesg | more
+  317  dmesg | grep  -i  vda
+  318  dmesg | grep  -i  sda
+  319  shutdown -h now
+  320  su chmod 7000 test.txt 
+  321  find / -mtime 0
+  322  find /usr/bin /usr/sbin -perm /6000
+  323  find /usr/bin /usr/sbin -perm -6000
+  324  find /usr/bin /usr/sbin -perm -7000
+  325  find /usr/bin /usr/sbin -perm -4000
+  326  find /usr/bin /usr/sbin -perm /4000
+  327  find /usr/bin /usr/sbin -perm /4000 | xargs ls -l {} \;
+  328  find /usr/bin /usr/sbin -perm /4000 | xargs ls -l 
+  329  find / -name passwd
+  330  find / -name passwd | ls -l
+  331  find / -name passwd | xargs ls -l
+  332  find / -name passwd | xargs ls -l {} \;
+  333  id lt
+  334  id root
+  335  su - lt
+  336  dumpe2fs /dev/sda
+  337  dumpe2fs /dev/sda1
+  338  dumpe2fs -h /dev/sda1
+  339  yum install dumpe2fs
+  340  blkid
+  341  dumpe2fs /dev/sda2
+  342  ls -li
+  343  ls -l
+  344  ls -li
+  345  man -f ls -i
+  346  whatis ls
+  347  whatis ls -i
+  348  whatis 'ls -i'
+  349  rpm
+  350  cd /var/cache/
+  351  ls
+  352  cd yum/
+  353  s
+  354  ls
+  355  cd x86_64/
+  356  ls
+  357  cd 7/
+  358  ls
+  359  ll
+  360  cd updates/
+  361  ls
+  362  ll
+  363  cd packages/
+  364  ls
+  365  cd ..
+  366  less repomd.xml 
+  367  cd /var/lib/rpm
+  368  ls
+  369  ll
+  370  less __db.00
+  371  less __db.001
+  372  du __db.001
+  373  type __db.001
+  374  cd /usr/share/man
+  375  ls
+  376  ll
+  377  rpm -ivh /mnt/Packages/rp-pppoe-3.11-5.el7.x86_64.rpm
+  378  cd /mnt
+  379  ls
+  380  cd hgfs/
+  381  ls
+  382  cd ..
+  383  ls
+  384  cd ..
+  385  ls
+  386  rpm --help
+  387  rpm 0a
+  388  rpm -a
+  389  rpm -qa
+  390  rpm -qa | grep curl
+  391  rpm -qlicdR curl-7.29.0-59.el7_9.1.x86_64
+  392  rpm -q curl
+  393  rpm -qa 
+  394  rpm -qi curl
+  395  rpm -ql curl
+  396  rpm -qc curl
+  397  rpm -qd curl
+  398  rpm -q --scripts curl
+  399  curl
+  400  rpm -q logrotating
+  401  rpm -ql logrotating
+  402  rpm -ql logrotate
+  403  rpm -q logrotate
+  404  clean
+  405  clr
+  406  clean
+  407  clear
+  408  rpm -qi logrotate
+  409  rpm -qc logrotate
+  410  rpm -qc logrotate | more
+  411  rpm -qc logrotate | cat 
+  412  rpm -qc logrotate | xargs cat
+  413  rpm -qd logrotate
+  414  rpm -qdc logrotate
+  415  rpm -qc logrotate
+  416  rpm -qc logrotate | xargs cat
+  417  rpm -qd logrotate | xargs cat
+  418  clear
+  419  rpm -qR logrotate
+  420  rpm -qf /bin/sh
+  421  rpm -qf /bin/sh | ls -l
+  422  rpm -qf /bin/sh | xargs ls -l
+  423  rpm -qf /bin/sh 
+  424  rpm -qf /bin/sh  | ls
+  425  ls
+  426  rpm -qpR logrotate
+  427  rpm -qpR logrotate*
+  428  rpm -qa | grep ^a
+  429  rpm -qa | grep ^a | wc 0l
+  430  rpm -qa | grep ^a | wc -l
+  431  rpm -qc httpd
+  432  rpm -qiF httpd
+  433  yum install httpd
+  434  rpm -qc httpd
+  435  rpm -qf /etc/crontab
+  436  rpm -q|grep crontab
+  437  rpm -qa|grep crontab
+  438  rpm -ivh crontab
+  439  rpm -ivh crontabs-1.11-6.20121102git.el7.noarch
+  440  rpm -Va
+  441  rpm -V logrotate
+  442  rpm -Vf /etc/crontab
+  443  rpm -ql logrotate
+  444  rpm -Va 
+  445  ll /etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7 
+  446  cat /etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+  447  rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+  448  locate
+  449  yum install locate
+  450  find /etc -name '*GPG-KEY*;
+  451  find /etc -name '*GPG-KEY*'
+  452  rpm -qa &#124; grep pubkey
+  453  rpm -qa | grep pubkey
+  454  rpm -qi gpg-pubkey-f4a80eb5-53a7ff4b
+  455  man -f pam
+  456  rpm -qa |
+  457  rpm -qa | grep pam
+  458  rpm -e pam
+  459  rpm -e pam-devel
+  460  rpm -q pam-dev
+  461  rpm -q pam-devel
+  462  rpm -q pam
+  463  yum install pam-devel
+  464  rpm -q pam-devel
+  465  rpm -e pam-devel
+  466  rpm -q pam-devel
+  467  rpm --rebuilddb
+  468  yum list
+  469  yum list | wc -l
+  470  rpm -qa | wc -l
+  471  yum info
+  472  yum search curl
+  473  yum search raid
+  474  yum info mdadm
+  475  yum list updates
+  476  yum provides passwd
+  477  yum list pam*
+  478  yum list update
+  479  yum list updates
+  480  yum update kernel.x86_64 kernel-tools.x86_64 kernel-tools-libs.x86_64
+  481  yum search pam*
+  482  rpm -qa pam*
+  483  rpm -qa pam-devel
+  484  yum search pam-devel
+  485  yum install pam-devel
+  486  yum search pam-devel
+  487  vim /etc/yum.repos.d/CentOS-Base.repo
+  488  yum repolist all
+  489  yum providers passwd
+  490  yum provides passwd
+  491  yum provides pq
+  492  yum provides passwd
+  493  yum clean all
+  494  yum grouplist
+  495  yum groupinfo
+  496  yum groupinfo "Scientific Support"
+  497  yum groupinstall scientific
+  498  vim /etc/yum.conf 
+  499  yum groupinstall "Scientific Support"
+  500  vim /etc/yum.repos.d/epel.repo
+  501  clear
+  502  yum --enablerepo=epel install netcdf R
+  503  vim /etc/yum.repos.d/epel.repo
+  504  cat /etc/yum.repos.d/epel.repo
+  505  yum --enablerepo=epel install netcdf R
+  506  vim /etc/crontab
+  507  cron
+  508  crontab 
+  509  man crontab
+  510  echo '10 1 * * * root /usr/bin/yum -y --enablerepo=epel update' > /etc/cron.d/yumupdate
+  511  vim /etc/crontab 
+  512  cd /etc/cron.d/
+  513  ls
+  514  ll
+  515  cat 0hourly yumupdate 
+  516   yum search httpd php mariadb-server php-mysql
+  517  rpm -q httpd php mariadb-server php-mysql
+  518  yum install httpd php mariadb-server php-mysql
+  519  rpm -q httpd php mariadb-server php-mysql
+  520  systemctl daemon-reload
+  521  systemctl start httpd
+  522  systemctl enable httpd
+  523  systemctl status httpd
+  524  firewall-cmd --add-service="http"
+  525  firewall-cmd --permanent --add-service="http"
+  526  firewall-cmd --list all
+  527  firewall-cmd --list-all
+  528  ifconfig
+  529  history
+  530  rpm -ivh ntp-4.2.6p5-19.el7.centos.1.src.rpm
+  531  cd /root/rpm
+  532  find /root/rpmbuild -name 'ntp*rpm'
+  533  cd /root
+  534  ls
+  535  mkdir test
+  536  ls
+  537  cd test
+  538  ls
+  539  wget http://linux.vbird.org/linux_basic/0520source/main-0.1.tgz
+  540  wget http://linux.vbird.org/linux_basic/0520source/main_0.1_to_0.2.patch
+  541  ll
+  542  cd ..
+  543  ls
+  544  mv test rpmbuild
+  545  ll
+  546  cd rpmbuild/
+  547  ls
+  548  mkdir SPECS
+  549  ls
+  550  cd SPECS/
+  551  vim main.spec
+  552  ll
+  553  pwd
+  554  vim main.spec
+  555  rpmbuild -ba main.spec
+  556  startx -- -depth 16
+  557  startx
+  558  yum install startx
+  559  xinitt
+  560  xinit
+  561  X -version
+  562  local
+  563  locale
+  564  sort
+  565  ls
+  566  cd ..
+  567  ls
+  568  sort
+  569  sort ./
+  570  sed
+  571  sed -s "adfasd/asdfasfeg"
+  572  awk
+  573  pr
+  574  man -f pr
+  575  man -f pr awk sed
+  576  w
+  577  last
+  578  lastlog
+  579  mail
+  580  man -f mail
+  581  at
+  582  cron
+  583  yum install crom
+  584  yum install cron
+  585  nmcli 
+  586  nmcli connection show ens33
+  587  nmcli connection modify ens33
+  588  hostnamectl
+  589  hostnamectl set-hostname www.lt.com
+  590  cat /etc/hostname
+  591  timedatectl
+  592  timedatectl list-timezones
+  593  timedatectl list-timezones | grep shanghai
+  594  timedatectl list-timezones | grep Shang
+  595  timedatectl list-timezones | grep Asia
+  596  timedatectl set-timezone "America/New_York"
+  597  timedatectl 
+  598  timedatectl set-timezone "Asia/Shanghai"
+  599  timedatectl
+  600  ntpdate 
+  601  yum install ntpdate
+  602  ntpdate
+  603  ntpdate s2m.time.edu.cn
+  604  hwclock -w
+  605  date
+  606  localectl
+  607  dmidecode 
+  608  dmidecode -t 1
+  609  dmidecode -t 4
+  610  lspci
+  611  iostat -c
+  612  yum install iostat
+  613  rpm -qa iostat
+  614  rpm -ivh iostat
+  615  yum install iostat
+  616  exit
+  617  locate
+  618  yum
+  619  who
+  620  locate
+  621  yum install locate
+  622  updatedb
+  623  yum install updatedb
+  624  man -f yum
+  625  yum -h
+  626  yum clean
+  627  yum check-update
+  628  ls
+  629  ll
+  630  cat test.txt 
+  631  ll
+  632  chmod 7666  test.txt 
+  633  ll
+  634  chmod 7000 test.txt 
+  635  su root
+  636  eixt
+  637  exit
+  638  ls
+  639  cd /home/
+  640  ls
+  641  ll
+  642  mkdir vgroup
+  643  ls
+  644  cd vgroup/
+  645  ls
+  646  rmdir lt
+  647  ls
+  648  cd ..
+  649  ls
+  650  rmdir lt
+  651  ls
+  652  cd lt/
+  653  ls
+  654  cd ..
+  655  ls
+  656  rm -f lt
+  657  ll
+  658  rm -rf tl
+  659  rm -rf lt
+  660  ls
+  661  ll
+  662  cd vgroup/
+  663  ls
+  664  cd ..
+  665  ls
+  666  ll
+  667  chgrp vgroup /home/vgroup
+  668  chmod 2770 /home/vgroup/
+  669  ls
+  670  ll -d /home/vgroup/
+  671  vim /etc/fstab 
+  672  cd /dev/mapper/
+  673  ls
+  674  vim /etc/fstab 
+  675  cd /dev/mapper/
+  676  ls
+  677  cd control 
+  678  ll
+  679  vim control 
+  680  od control 
+  681  vim centos-root 
+  682  cd ..
+  683  ll | grep dm-0
+  684  vim /etc/fstab
+  685  umount /home/
+  686  mount -a
+  687  mount | grep home
+  688  df 
+  689  du
+  690  df
+  691  blkid
+  692  df 
+  693  df -h
+  694  du
+  695  df -h
+  696  blkid
+  697  ll
+  698  vim /etc/fstab 
+  699  mount -a
+  700  repquota -au
+  701  yum install repquota
+  702  chkconfig
+  703  LANG=C chkconfig --list 
+  704  LANG=C chkconfig --list | grep '3:on'
+  705  netstat -tulnp
+  706  which chronyd
+  707  yum search
+  708  yum search samba
+  709  yum search samba-common
+  710  log
+  711  systemctl status chronyd
+  712  yum update
+  713  yum search samba
+  714  yum list
+  715  yum list | grep samba
+  716  rpm -qc samba samba-common
+  717  yum install samba
+  718  ls
+  719  rpm -qc samba samba-common
+  720  rpm -ql samba | grep '/etc'
+  721  man rpm 
+  722  rpm -ql samba | grep '/etc'| ls -l
+  723  rpm -ql samba | grep '/etc'| xargs ls -l
+  724  cat /etc/pam.d/samba 
+  725  samba
+  726  rpm -ql samba | grep '/etc'
+  727  cat /etc/openldap/schema/
+  728  cat /etc/openldap/schema/samba.schema 
+  729  less /etc/openldap/schema/samba.schema 
+  730  chmod u+x /etc/openldap/schema/samba.schema 
+  731  /etc/openldap/schema/samba.schema start
+  732  chmod u-x /etc/openldap/schema/samba.schema 
+  733  chkconfig smb on
+  734  systemctl status smb.service
+  735  systemctl start smb
+  736  systemctl status smb.service
+  737  chkconfig nmb on
+  738  systemctl start nmb
+  739  systemctl status nmb
+  740  systemctl enable nmb
+  741  systemctl enable smb
+  742  netstat -tulnp 
+  743  netstat -tulnp | grep '[sn]mbd'
+  744  route
+  745  route -n
+  746  ifconfig ens33
+  747  arp
+  748  man -f arp
+  749  dmesg
+  750  dmesg| grep -in ent
+  751  dmesg| grep -in eth
+  752  dmesg| grep -in ens
+  753  lspci 
+  754  lspci|grep -i ethernet
+  755  lsmod
+  756  lsmod | e1000
+  757  lsmod | grep e1000
+  758  modinfo 
+  759  modinfo e1000
+  760  /etc/init.d/network status
+  761  ping -c 192.168.1.254
+  762  ping -c 3 192.168.1.254
+  763  vim /etc/resolv.conf 
+  764  dig
+  765  yum install ding
+  766  yum install dig
+  767  vim /etc/sysconfig/network
+  768  lsusb
+  769  yum install lsusb
+  770  iwconfig
+  771  iwlist
+  772  yum search iwlist
+  773  rpm -qa | grep iwlist
+  774  rpm -qa | grep iwconfig
+  775  ifup
+  776  ifdown
+  777  man ifup
+  778  ip
+  779  man ip
+  780  ip ens33
+  781  ip help
+  782  ip -f inet address
+  783  ip list
+  784  ip link
+  785  ip address
+  786  ip rule
+  787  ip route
+  788  dhcp
+  789  dhclient
+  790  dhclient ens33
+  791  vim /etc/sysconfig/network-scripts/ifcfg-ens33
+  792  ping baidu.com
+  793  ip address
+  794  ifconfig
+  795  traceroute
+  796  yum install traceroute
+  797  traceroute
+  798  traceroute -n tw.yahoo.com
+  799  traceroute -n baidu.com
+  800  traceroute -n google.com
+  801  traceroute -w 1 -n -T google.com
+  802  traceroute -w 1 -n -T baidu.com
+  803  traceroute -w 1 -n -T google.com
+  804  netstat
+  805  host
+  806  yum install host
+  807  nslookup
+  808  yum install nslookup
+  809  telnet
+  810  yum install telnet
+  811  telnet ptt.cc
+  812  telnet localhost 110
+  813  telnet localhost 25
+  814  telnet localhost 80
+  815  fttp
+  816  ftp
+  817  yum install ftp
+  818  yum install lftp
+  819  lftp -f 
+  820  ftp ftp.ksu.edu.tw
+  821  wget
+  822  curl
+  823  tcpdump
+  824  yum install tcpdump
+  825  tcpdump -i ens33 -nn
+  826  ls
+  827  pwd
+  828  cd ~
+  829  ls
+  830  pwd
+  831  mkdir
+  832  mkdir datepackage
+  833  cd datepackage/
+  834  ls
+  835  cd ..
+  836  ls
+  837  rename
+  838  mv datepackage datapackage
+  839  ls
+  840  cd datapackage/
+  841  ls
+  842  tcpdump -i ens33 
+  843  tcpdump -i ens33 -nn
+  844  tcpdump -i ens33 
+  845  tcpdump -i ens33 -A
+  846  tcpdump -i ens33 
+  847  tcpdump -i ens33 | grep -v 'length 0'
+  848  ls
+  849  cd ~
+  850  ls
+  851  cd datapackage/
+  852  ls
+  853  tcpdump -i ens33 -nn port 21
+  854  tcpdump -i ens33 -nn port 90
+  855  tcpdump -i ens33 -nn port 80
+  856  tcpdump -i ens33 -nn 
+  857  tcpdump -i ens33 -nn 22
+  858  tcpdump -i ens33 -nn port 22
+  859  tcpdump -i ens33 -nn -w data.log
+  860  ll
+  861  less data.log 
+  862  od data.log 
+  863  od -x data.log 
+  864  tcpdump -i ens33 -nn -X 'port 22'
+  865  tcpdump -i ens33 -nn -X 'port 22 and src host 192.168.1.101'
+  866  tcpdump -i ens33 -nn -X 'port 22 and src host 192.168.1.8'
+  867  tcpdump -i ens33 -nn 
+  868  tcpdump -i ens33 -nn -X 'port 22 and src host 192.168.1.8.9435'
+  869  tcpdump -i ens33 -nn -X 'port 22 and src host 192.168.1.8'
+  870  tcpdump -i ens33 -nn -X 'port 22 and src host 192.168.100.8'
+  871  nc
+  872  netcat
+  873  yum install nc netcat
+  874  nc
+  875  netcat
+  876  yum install netcat
+  877  nc localhost 25
+  878  nc localhost 22
+  879  netstat -tlupn | grep nc
+  880  nc localhost 2000
+  881  yum
+  882  you
+  883  yum install you
+  884  nmap
+  885  yum install nmap
+  886  nmap localhost
+  887  nmap -sTU localhost
+  888  nmap -sP 192.168.100.0/24
+  889  nmap 192.168.100.0/24
+  890  nmap -sUTP 192.168.100.0/24
+  891  nmap -sU 192.168.100.0/24
+  892  nmap -sP 192.168.100.0/24
+  893  nmap -sT 192.168.100.0/24
+  894  getenforce
+  895  vim /etc/selinux/config 
+  896  history
+  897  ll
+  898  history > history.txt
